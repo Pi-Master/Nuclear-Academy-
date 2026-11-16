@@ -1,0 +1,13 @@
+{
+ "schemaVersion": 1,
+ "id": "diagram-id",
+ "category": "Nuclear Physics",
+ "title": "Diagram title",
+ "svg": "assets/images/diagram-id.svg",
+ "viewBox": "0 0 720 330",
+ "description": "Short explanation under the diagram",
+ "labels": [{"n": 1, "x": 0, "y": 0, "name": "Part", "simple": "What it does", "advanced": "Extra detail"}],
+ "chapter": "np-i-3",
+ "lesson": "i1",
+ "schools": ["np"]
+}

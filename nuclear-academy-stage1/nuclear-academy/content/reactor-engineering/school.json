@@ -1,0 +1,271 @@
+{
+ "schemaVersion": 1,
+ "id": "re",
+ "dir": "reactor-engineering",
+ "name": "Reactor Engineering",
+ "summary": "How reactors work: components, designs, control, reactor physics and advanced concepts.",
+ "levels": [
+  {
+   "id": "re-f",
+   "level": "Foundation",
+   "difficulty": 1,
+   "objectives": [
+    "Name the main reactor components and their purposes",
+    "Distinguish the main reactor families"
+   ],
+   "chapters": [
+    {
+     "id": "re-f-1",
+     "title": "Reactor fundamentals",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "re-f-1.1",
+       "title": "The chain reaction idea"
+      },
+      {
+       "id": "re-f-1.2",
+       "title": "Fuel, moderator and coolant"
+      },
+      {
+       "id": "re-f-1.3",
+       "title": "Control rods"
+      }
+     ],
+     "existing": {
+      "lessons": [
+       "i3"
+      ]
+     }
+    },
+    {
+     "id": "re-f-2",
+     "title": "Main reactor types at a glance",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "re-f-2.1",
+       "title": "Light-water reactors"
+      },
+      {
+       "id": "re-f-2.2",
+       "title": "Heavy-water and gas-cooled reactors"
+      },
+      {
+       "id": "re-f-2.3",
+       "title": "Research and power reactors"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "re-f-3",
+     "title": "Reading a reactor diagram",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "re-f-3.1",
+       "title": "Primary and secondary loops"
+      },
+      {
+       "id": "re-f-3.2",
+       "title": "Containment"
+      },
+      {
+       "id": "re-f-3.3",
+       "title": "Purpose of each component"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "Basic nuclear reactor layout",
+    "Control rods and their purpose"
+   ],
+   "suggestedSimulations": [
+    "Reactor components explorer"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Reactor Engineering Foundation topic test",
+    "numerical": false,
+    "levelExam": "Reactor Engineering Foundation level exam"
+   }
+  },
+  {
+   "id": "re-i",
+   "level": "Intermediate",
+   "difficulty": 2,
+   "objectives": [
+    "Compare PWR and BWR designs",
+    "Calculate simple reactivity values"
+   ],
+   "chapters": [
+    {
+     "id": "re-i-1",
+     "title": "Pressurised water reactors",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "re-i-1.1",
+       "title": "Primary circuit"
+      },
+      {
+       "id": "re-i-1.2",
+       "title": "Steam generator"
+      },
+      {
+       "id": "re-i-1.3",
+       "title": "Pressuriser"
+      }
+     ],
+     "existing": {
+      "diagrams": [
+       "pwr"
+      ]
+     }
+    },
+    {
+     "id": "re-i-2",
+     "title": "Boiling water reactors",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "re-i-2.1",
+       "title": "Direct-cycle steam"
+      },
+      {
+       "id": "re-i-2.2",
+       "title": "Recirculation"
+      },
+      {
+       "id": "re-i-2.3",
+       "title": "Differences from PWR"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "re-i-3",
+     "title": "Reactor control and monitoring principles",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "re-i-3.1",
+       "title": "Reactivity and control methods"
+      },
+      {
+       "id": "re-i-3.2",
+       "title": "Neutron flux monitoring"
+      },
+      {
+       "id": "re-i-3.3",
+       "title": "Feedback effects"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "Pressurised Water Reactor (PWR)",
+    "Boiling Water Reactor (BWR)",
+    "Reactor pressure vessel"
+   ],
+   "suggestedSimulations": [
+    "Multiplication factor demonstration"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Reactor Engineering Intermediate topic test",
+    "numerical": true,
+    "levelExam": "Reactor Engineering Intermediate level exam"
+   }
+  },
+  {
+   "id": "re-a",
+   "level": "Advanced",
+   "difficulty": 3,
+   "objectives": [
+    "Use the six- or four-factor formula and reactivity coefficients",
+    "Explain delayed-neutron control and compare advanced concepts"
+   ],
+   "chapters": [
+    {
+     "id": "re-a-1",
+     "title": "Reactor physics fundamentals",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "re-a-1.1",
+       "title": "Multiplication factor and the four-factor formula"
+      },
+      {
+       "id": "re-a-1.2",
+       "title": "Moderation and thermalisation"
+      },
+      {
+       "id": "re-a-1.3",
+       "title": "Reactivity coefficients"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "re-a-2",
+     "title": "Time-dependent reactor behaviour",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "re-a-2.1",
+       "title": "Prompt and delayed neutrons"
+      },
+      {
+       "id": "re-a-2.2",
+       "title": "Point kinetics (concept)"
+      },
+      {
+       "id": "re-a-2.3",
+       "title": "Fission-product poisoning"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "re-a-3",
+     "title": "Advanced reactor concepts",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "re-a-3.1",
+       "title": "Small modular reactors"
+      },
+      {
+       "id": "re-a-3.2",
+       "title": "Gas-cooled and molten-salt concepts"
+      },
+      {
+       "id": "re-a-3.3",
+       "title": "Fast reactors and breeding"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "Neutron life cycle",
+    "Advanced reactor concept comparison"
+   ],
+   "suggestedSimulations": [
+    "Point kinetics plotter with fixed teaching parameters"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Reactor Engineering Advanced topic test",
+    "numerical": true,
+    "levelExam": "Reactor Engineering Advanced level exam"
+   }
+  }
+ ],
+ "finalExam": "Reactor Engineering final course examination (all three levels)"
+}

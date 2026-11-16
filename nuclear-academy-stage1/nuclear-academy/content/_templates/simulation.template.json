@@ -1,0 +1,11 @@
+{
+ "schemaVersion": 1,
+ "id": "decay-monte-carlo",
+ "title": "Radioactive decay Monte Carlo",
+ "school": "np",
+ "script": "simulations/decay-monte-carlo/sim.js",
+ "principle": "The scientific idea this demonstrates",
+ "modelLimits": "What is simplified. Educational model only; not for designing or operating real systems.",
+ "parameters": [{"name": "halfLife", "label": "Half-life", "unit": "s", "min": 1, "max": 60, "default": 10}],
+ "relatedChapters": ["np-i-1"]
+}

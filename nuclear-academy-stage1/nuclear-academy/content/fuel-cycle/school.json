@@ -1,0 +1,260 @@
+{
+ "schemaVersion": 1,
+ "id": "fc",
+ "dir": "fuel-cycle",
+ "name": "Nuclear Fuel Cycle and Waste Management",
+ "summary": "Fuel from mine to disposal, waste classification and long-term stewardship.",
+ "levels": [
+  {
+   "id": "fc-f",
+   "level": "Foundation",
+   "difficulty": 1,
+   "objectives": [
+    "Trace nuclear fuel through the cycle",
+    "Explain why used fuel is stored and managed"
+   ],
+   "chapters": [
+    {
+     "id": "fc-f-1",
+     "title": "Where nuclear fuel comes from",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "fc-f-1.1",
+       "title": "Uranium in nature"
+      },
+      {
+       "id": "fc-f-1.2",
+       "title": "Mining and milling in outline"
+      },
+      {
+       "id": "fc-f-1.3",
+       "title": "The idea of enrichment"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "fc-f-2",
+     "title": "Fuel in the reactor",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "fc-f-2.1",
+       "title": "Pellets and assemblies"
+      },
+      {
+       "id": "fc-f-2.2",
+       "title": "Burn-up"
+      },
+      {
+       "id": "fc-f-2.3",
+       "title": "Refuelling"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "fc-f-3",
+     "title": "What happens to used fuel",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "fc-f-3.1",
+       "title": "Cooling pools"
+      },
+      {
+       "id": "fc-f-3.2",
+       "title": "Dry storage"
+      },
+      {
+       "id": "fc-f-3.3",
+       "title": "Recycling idea"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "Nuclear fuel cycle overview"
+   ],
+   "suggestedSimulations": [
+    "Fuel cycle explorer"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Nuclear Fuel Cycle and Waste Management Foundation topic test",
+    "numerical": false,
+    "levelExam": "Nuclear Fuel Cycle and Waste Management Foundation level exam"
+   }
+  },
+  {
+   "id": "fc-i",
+   "level": "Intermediate",
+   "difficulty": 2,
+   "objectives": [
+    "Perform simple burn-up and energy calculations",
+    "Classify waste streams"
+   ],
+   "chapters": [
+    {
+     "id": "fc-i-1",
+     "title": "The front end",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "fc-i-1.1",
+       "title": "Uranium resources"
+      },
+      {
+       "id": "fc-i-1.2",
+       "title": "Conversion and enrichment principles"
+      },
+      {
+       "id": "fc-i-1.3",
+       "title": "Fuel fabrication"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "fc-i-2",
+     "title": "Reactor use and spent fuel",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "fc-i-2.1",
+       "title": "Burn-up calculations"
+      },
+      {
+       "id": "fc-i-2.2",
+       "title": "Spent fuel composition"
+      },
+      {
+       "id": "fc-i-2.3",
+       "title": "Interim storage"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "fc-i-3",
+     "title": "Radioactive waste classification",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "fc-i-3.1",
+       "title": "IAEA waste classes"
+      },
+      {
+       "id": "fc-i-3.2",
+       "title": "Low, intermediate and high level"
+      },
+      {
+       "id": "fc-i-3.3",
+       "title": "Waste minimisation"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "Front-end fuel cycle",
+    "Spent fuel storage"
+   ],
+   "suggestedSimulations": [
+    "Waste decay over time"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Nuclear Fuel Cycle and Waste Management Intermediate topic test",
+    "numerical": true,
+    "levelExam": "Nuclear Fuel Cycle and Waste Management Intermediate level exam"
+   }
+  },
+  {
+   "id": "fc-a",
+   "level": "Advanced",
+   "difficulty": 3,
+   "objectives": [
+    "Carry out a simple fuel cycle mass balance",
+    "Compare open and closed cycles"
+   ],
+   "chapters": [
+    {
+     "id": "fc-a-1",
+     "title": "Mass balance and fuel utilisation",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "fc-a-1.1",
+       "title": "Feed, product and tails balance (concept)"
+      },
+      {
+       "id": "fc-a-1.2",
+       "title": "Uranium utilisation"
+      },
+      {
+       "id": "fc-a-1.3",
+       "title": "Fuel management"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "fc-a-2",
+     "title": "Back-end options",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "fc-a-2.1",
+       "title": "Open versus closed cycle"
+      },
+      {
+       "id": "fc-a-2.2",
+       "title": "Reprocessing principles"
+      },
+      {
+       "id": "fc-a-2.3",
+       "title": "Geological disposal concepts"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "fc-a-3",
+     "title": "Environmental and long-term assessment",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "fc-a-3.1",
+       "title": "Decay over time"
+      },
+      {
+       "id": "fc-a-3.2",
+       "title": "Safety case concepts"
+      },
+      {
+       "id": "fc-a-3.3",
+       "title": "Transport and stewardship"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "Closed fuel cycle"
+   ],
+   "suggestedSimulations": [
+    "Fuel cycle mass-balance calculator"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Nuclear Fuel Cycle and Waste Management Advanced topic test",
+    "numerical": true,
+    "levelExam": "Nuclear Fuel Cycle and Waste Management Advanced level exam"
+   }
+  }
+ ],
+ "finalExam": "Nuclear Fuel Cycle and Waste Management final course examination (all three levels)"
+}

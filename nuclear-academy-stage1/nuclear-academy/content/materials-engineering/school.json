@@ -1,0 +1,257 @@
+{
+ "schemaVersion": 1,
+ "id": "me",
+ "dir": "materials-engineering",
+ "name": "Nuclear Materials Engineering",
+ "summary": "Materials for fuel, cladding and structures; corrosion, radiation damage and integrity.",
+ "levels": [
+  {
+   "id": "me-f",
+   "level": "Foundation",
+   "difficulty": 1,
+   "objectives": [
+    "Describe basic material properties",
+    "Identify the main materials in a reactor and why"
+   ],
+   "chapters": [
+    {
+     "id": "me-f-1",
+     "title": "Materials basics",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "me-f-1.1",
+       "title": "Metals, ceramics and polymers"
+      },
+      {
+       "id": "me-f-1.2",
+       "title": "Crystal structure"
+      },
+      {
+       "id": "me-f-1.3",
+       "title": "Strength and ductility"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "me-f-2",
+     "title": "Why materials matter in reactors",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "me-f-2.1",
+       "title": "Heat, pressure, radiation and corrosion"
+      },
+      {
+       "id": "me-f-2.2",
+       "title": "Roles of fuel, cladding and vessel"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "me-f-3",
+     "title": "Common nuclear materials",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "me-f-3.1",
+       "title": "Uranium dioxide"
+      },
+      {
+       "id": "me-f-3.2",
+       "title": "Zirconium alloys"
+      },
+      {
+       "id": "me-f-3.3",
+       "title": "Steels"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "Crystal lattice",
+    "Stress-strain curve"
+   ],
+   "suggestedSimulations": [
+    "Stress-strain explorer"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Nuclear Materials Engineering Foundation topic test",
+    "numerical": false,
+    "levelExam": "Nuclear Materials Engineering Foundation level exam"
+   }
+  },
+  {
+   "id": "me-i",
+   "level": "Intermediate",
+   "difficulty": 2,
+   "objectives": [
+    "Explain main corrosion mechanisms",
+    "Estimate displacement damage conceptually"
+   ],
+   "chapters": [
+    {
+     "id": "me-i-1",
+     "title": "Nuclear fuel materials",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "me-i-1.1",
+       "title": "UO2 properties"
+      },
+      {
+       "id": "me-i-1.2",
+       "title": "Cladding and fuel performance"
+      },
+      {
+       "id": "me-i-1.3",
+       "title": "Pellet-cladding interaction"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "me-i-2",
+     "title": "Corrosion",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "me-i-2.1",
+       "title": "Electrochemistry basics"
+      },
+      {
+       "id": "me-i-2.2",
+       "title": "Waterside corrosion"
+      },
+      {
+       "id": "me-i-2.3",
+       "title": "Stress corrosion cracking"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "me-i-3",
+     "title": "Radiation damage",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "me-i-3.1",
+       "title": "Displacements per atom"
+      },
+      {
+       "id": "me-i-3.2",
+       "title": "Swelling and embrittlement"
+      },
+      {
+       "id": "me-i-3.3",
+       "title": "Irradiation creep"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "Fuel rod cross-section",
+    "Radiation-induced defects"
+   ],
+   "suggestedSimulations": [
+    "Displacement cascade illustration"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Nuclear Materials Engineering Intermediate topic test",
+    "numerical": true,
+    "levelExam": "Nuclear Materials Engineering Intermediate level exam"
+   }
+  },
+  {
+   "id": "me-a",
+   "level": "Advanced",
+   "difficulty": 3,
+   "objectives": [
+    "Apply fracture-mechanics concepts to a vessel scenario",
+    "Describe qualification and surveillance practice"
+   ],
+   "chapters": [
+    {
+     "id": "me-a-1",
+     "title": "Radiation materials science",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "me-a-1.1",
+       "title": "Defect production"
+      },
+      {
+       "id": "me-a-1.2",
+       "title": "Void swelling"
+      },
+      {
+       "id": "me-a-1.3",
+       "title": "Helium and hydrogen effects"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "me-a-2",
+     "title": "Structural integrity",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "me-a-2.1",
+       "title": "Fracture mechanics concepts"
+      },
+      {
+       "id": "me-a-2.2",
+       "title": "Vessel embrittlement"
+      },
+      {
+       "id": "me-a-2.3",
+       "title": "Fatigue and ageing"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "me-a-3",
+     "title": "Testing and qualification",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "me-a-3.1",
+       "title": "Mechanical testing"
+      },
+      {
+       "id": "me-a-3.2",
+       "title": "Post-irradiation examination"
+      },
+      {
+       "id": "me-a-3.3",
+       "title": "Surveillance programmes"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "Ductile-to-brittle transition"
+   ],
+   "suggestedSimulations": [
+    "Fracture toughness illustration"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Nuclear Materials Engineering Advanced topic test",
+    "numerical": true,
+    "levelExam": "Nuclear Materials Engineering Advanced level exam"
+   }
+  }
+ ],
+ "finalExam": "Nuclear Materials Engineering final course examination (all three levels)"
+}

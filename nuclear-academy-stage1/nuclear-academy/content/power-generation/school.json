@@ -1,0 +1,262 @@
+{
+ "schemaVersion": 1,
+ "id": "pg",
+ "dir": "power-generation",
+ "name": "Nuclear Power Generation",
+ "summary": "From heat to electricity: thermodynamics, turbines, generators and plant systems.",
+ "levels": [
+  {
+   "id": "pg-f",
+   "level": "Foundation",
+   "difficulty": 1,
+   "objectives": [
+    "Explain how heat becomes electricity",
+    "Identify the parts of a power station"
+   ],
+   "chapters": [
+    {
+     "id": "pg-f-1",
+     "title": "Energy and heat engines",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "pg-f-1.1",
+       "title": "Forms of energy"
+      },
+      {
+       "id": "pg-f-1.2",
+       "title": "Turning heat into work"
+      },
+      {
+       "id": "pg-f-1.3",
+       "title": "Why waste heat exists"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "pg-f-2",
+     "title": "From steam to electricity",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "pg-f-2.1",
+       "title": "Making steam"
+      },
+      {
+       "id": "pg-f-2.2",
+       "title": "Turbines"
+      },
+      {
+       "id": "pg-f-2.3",
+       "title": "Generators and induction"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "pg-f-3",
+     "title": "A power station overview",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "pg-f-3.1",
+       "title": "Plant layout"
+      },
+      {
+       "id": "pg-f-3.2",
+       "title": "Cooling water"
+      },
+      {
+       "id": "pg-f-3.3",
+       "title": "Grid connection"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "Electricity generation process",
+    "Complete nuclear power station layout"
+   ],
+   "suggestedSimulations": [
+    "Simple electricity generation model"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Nuclear Power Generation Foundation topic test",
+    "numerical": false,
+    "levelExam": "Nuclear Power Generation Foundation level exam"
+   }
+  },
+  {
+   "id": "pg-i",
+   "level": "Intermediate",
+   "difficulty": 2,
+   "objectives": [
+    "Calculate Carnot and simple cycle efficiencies",
+    "Size a heat exchanger duty with Q = U A (delta T)lm"
+   ],
+   "chapters": [
+    {
+     "id": "pg-i-1",
+     "title": "Thermodynamics of power cycles",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "pg-i-1.1",
+       "title": "First and second laws"
+      },
+      {
+       "id": "pg-i-1.2",
+       "title": "The Rankine cycle"
+      },
+      {
+       "id": "pg-i-1.3",
+       "title": "Efficiency and Carnot limit"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "pg-i-2",
+     "title": "Turbines and generators",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "pg-i-2.1",
+       "title": "Staged steam expansion"
+      },
+      {
+       "id": "pg-i-2.2",
+       "title": "Generator principles"
+      },
+      {
+       "id": "pg-i-2.3",
+       "title": "Condensers"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "pg-i-3",
+     "title": "Heat exchangers",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "pg-i-3.1",
+       "title": "Types and purposes"
+      },
+      {
+       "id": "pg-i-3.2",
+       "title": "Log-mean temperature difference"
+      },
+      {
+       "id": "pg-i-3.3",
+       "title": "Fouling"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "Steam generator",
+    "Turbine and generator",
+    "Condenser"
+   ],
+   "suggestedSimulations": [
+    "Rankine cycle energy conversion demonstration"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Nuclear Power Generation Intermediate topic test",
+    "numerical": true,
+    "levelExam": "Nuclear Power Generation Intermediate level exam"
+   }
+  },
+  {
+   "id": "pg-a",
+   "level": "Advanced",
+   "difficulty": 3,
+   "objectives": [
+    "Analyse a Rankine cycle with reheat and regeneration",
+    "Evaluate plant performance metrics"
+   ],
+   "chapters": [
+    {
+     "id": "pg-a-1",
+     "title": "Advanced cycle analysis",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "pg-a-1.1",
+       "title": "Reheat and regeneration"
+      },
+      {
+       "id": "pg-a-1.2",
+       "title": "Isentropic efficiency"
+      },
+      {
+       "id": "pg-a-1.3",
+       "title": "T-s diagrams"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "pg-a-2",
+     "title": "Plant systems engineering",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "pg-a-2.1",
+       "title": "Feedwater and condensate"
+      },
+      {
+       "id": "pg-a-2.2",
+       "title": "Heat rejection and cooling towers"
+      },
+      {
+       "id": "pg-a-2.3",
+       "title": "Plant electrical systems"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "pg-a-3",
+     "title": "Plant performance and economics",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "pg-a-3.1",
+       "title": "Heat rate"
+      },
+      {
+       "id": "pg-a-3.2",
+       "title": "Capacity factor"
+      },
+      {
+       "id": "pg-a-3.3",
+       "title": "Levelised cost concepts"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "T-s diagram of a reheat cycle"
+   ],
+   "suggestedSimulations": [
+    "Cycle efficiency explorer"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Nuclear Power Generation Advanced topic test",
+    "numerical": true,
+    "levelExam": "Nuclear Power Generation Advanced level exam"
+   }
+  }
+ ],
+ "finalExam": "Nuclear Power Generation final course examination (all three levels)"
+}

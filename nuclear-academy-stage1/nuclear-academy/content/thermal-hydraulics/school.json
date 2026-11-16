@@ -1,0 +1,265 @@
+{
+ "schemaVersion": 1,
+ "id": "th",
+ "dir": "thermal-hydraulics",
+ "name": "Thermal Hydraulics",
+ "summary": "Fluid mechanics and heat transfer applied to cooling reactor systems.",
+ "levels": [
+  {
+   "id": "th-f",
+   "level": "Foundation",
+   "difficulty": 1,
+   "objectives": [
+    "Describe the three modes of heat transfer",
+    "Explain why coolant flow matters"
+   ],
+   "chapters": [
+    {
+     "id": "th-f-1",
+     "title": "Fluids and pressure",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "th-f-1.1",
+       "title": "Pressure and density"
+      },
+      {
+       "id": "th-f-1.2",
+       "title": "Flow"
+      },
+      {
+       "id": "th-f-1.3",
+       "title": "Why water is used as a coolant"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "th-f-2",
+     "title": "How heat moves",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "th-f-2.1",
+       "title": "Conduction, convection and radiation"
+      },
+      {
+       "id": "th-f-2.2",
+       "title": "Heat versus temperature"
+      },
+      {
+       "id": "th-f-2.3",
+       "title": "Everyday examples"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "th-f-3",
+     "title": "Cooling a hot object",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "th-f-3.1",
+       "title": "Heating and cooling curves"
+      },
+      {
+       "id": "th-f-3.2",
+       "title": "Role of flow rate"
+      },
+      {
+       "id": "th-f-3.3",
+       "title": "Simple thermal systems"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "Modes of heat transfer",
+    "A simple coolant circuit"
+   ],
+   "suggestedSimulations": [
+    "Heat transfer demonstration"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Thermal Hydraulics Foundation topic test",
+    "numerical": false,
+    "levelExam": "Thermal Hydraulics Foundation level exam"
+   }
+  },
+  {
+   "id": "th-i",
+   "level": "Intermediate",
+   "difficulty": 2,
+   "objectives": [
+    "Solve steady conduction and coolant energy-balance problems",
+    "Apply continuity and Bernoulli equations"
+   ],
+   "chapters": [
+    {
+     "id": "th-i-1",
+     "title": "Conduction",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "th-i-1.1",
+       "title": "Fourier's law"
+      },
+      {
+       "id": "th-i-1.2",
+       "title": "Thermal resistance"
+      },
+      {
+       "id": "th-i-1.3",
+       "title": "Heat generation in a fuel pellet (simplified)"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "th-i-2",
+     "title": "Convection and coolant properties",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "th-i-2.1",
+       "title": "Newton's law of cooling"
+      },
+      {
+       "id": "th-i-2.2",
+       "title": "Heat transfer coefficient"
+      },
+      {
+       "id": "th-i-2.3",
+       "title": "Q = m_dot cp (delta T)"
+      }
+     ],
+     "existing": {
+      "lessons": [
+       "u2"
+      ]
+     }
+    },
+    {
+     "id": "th-i-3",
+     "title": "Fluid mechanics basics",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "th-i-3.1",
+       "title": "Continuity and Bernoulli"
+      },
+      {
+       "id": "th-i-3.2",
+       "title": "Pressure drop in pipes"
+      },
+      {
+       "id": "th-i-3.3",
+       "title": "Pumps and flow"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "Temperature profile in a fuel rod"
+   ],
+   "suggestedSimulations": [
+    "One-dimensional conduction explorer",
+    "Coolant energy balance"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Thermal Hydraulics Intermediate topic test",
+    "numerical": true,
+    "levelExam": "Thermal Hydraulics Intermediate level exam"
+   }
+  },
+  {
+   "id": "th-a",
+   "level": "Advanced",
+   "difficulty": 3,
+   "objectives": [
+    "Describe boiling regimes and critical heat flux",
+    "Write a simple finite-difference conduction model"
+   ],
+   "chapters": [
+    {
+     "id": "th-a-1",
+     "title": "Two-phase flow and boiling",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "th-a-1.1",
+       "title": "Boiling regimes"
+      },
+      {
+       "id": "th-a-1.2",
+       "title": "Critical heat flux (concept)"
+      },
+      {
+       "id": "th-a-1.3",
+       "title": "Void fraction"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "th-a-2",
+     "title": "Core thermal analysis",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "th-a-2.1",
+       "title": "Axial power shape"
+      },
+      {
+       "id": "th-a-2.2",
+       "title": "Channel analysis"
+      },
+      {
+       "id": "th-a-2.3",
+       "title": "Safety margins"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "th-a-3",
+     "title": "Educational modelling",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "th-a-3.1",
+       "title": "Finite-difference conduction"
+      },
+      {
+       "id": "th-a-3.2",
+       "title": "Lumped-parameter transients"
+      },
+      {
+       "id": "th-a-3.3",
+       "title": "Limits of simple models"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "Boiling curve"
+   ],
+   "suggestedSimulations": [
+    "Finite-difference conduction solver"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Thermal Hydraulics Advanced topic test",
+    "numerical": true,
+    "levelExam": "Thermal Hydraulics Advanced level exam"
+   }
+  }
+ ],
+ "finalExam": "Thermal Hydraulics final course examination (all three levels)"
+}

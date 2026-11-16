@@ -1,0 +1,265 @@
+{
+ "schemaVersion": 1,
+ "id": "ns",
+ "dir": "nuclear-safety",
+ "name": "Nuclear Safety and Regulation",
+ "summary": "Safety principles, defence in depth, risk, regulation and emergency preparedness.",
+ "levels": [
+  {
+   "id": "ns-f",
+   "level": "Foundation",
+   "difficulty": 1,
+   "objectives": [
+    "Explain defence in depth and safety culture",
+    "Describe who is responsible for safety"
+   ],
+   "chapters": [
+    {
+     "id": "ns-f-1",
+     "title": "Why safety comes first",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "ns-f-1.1",
+       "title": "Radiation hazards"
+      },
+      {
+       "id": "ns-f-1.2",
+       "title": "Safety goals"
+      },
+      {
+       "id": "ns-f-1.3",
+       "title": "Safety culture"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "ns-f-2",
+     "title": "Defence in depth",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "ns-f-2.1",
+       "title": "Layers of protection"
+      },
+      {
+       "id": "ns-f-2.2",
+       "title": "Physical barriers"
+      },
+      {
+       "id": "ns-f-2.3",
+       "title": "Redundancy and diversity"
+      }
+     ],
+     "existing": {
+      "lessons": [
+       "u3"
+      ]
+     }
+    },
+    {
+     "id": "ns-f-3",
+     "title": "Who keeps plants safe",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "ns-f-3.1",
+       "title": "Operators"
+      },
+      {
+       "id": "ns-f-3.2",
+       "title": "Regulators"
+      },
+      {
+       "id": "ns-f-3.3",
+       "title": "International cooperation"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "Defence in depth layers",
+    "Barriers to release"
+   ],
+   "suggestedSimulations": [
+    "Barrier failure what-if (conceptual)"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Nuclear Safety and Regulation Foundation topic test",
+    "numerical": false,
+    "levelExam": "Nuclear Safety and Regulation Foundation level exam"
+   }
+  },
+  {
+   "id": "ns-i",
+   "level": "Intermediate",
+   "difficulty": 2,
+   "objectives": [
+    "Explain the fundamental safety functions",
+    "Describe risk as probability times consequence"
+   ],
+   "chapters": [
+    {
+     "id": "ns-i-1",
+     "title": "Safety principles",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "ns-i-1.1",
+       "title": "IAEA Fundamental Safety Principles"
+      },
+      {
+       "id": "ns-i-1.2",
+       "title": "Control, cool, contain"
+      },
+      {
+       "id": "ns-i-1.3",
+       "title": "Decay heat"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "ns-i-2",
+     "title": "Risk assessment",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "ns-i-2.1",
+       "title": "Hazard identification"
+      },
+      {
+       "id": "ns-i-2.2",
+       "title": "Probability and consequence"
+      },
+      {
+       "id": "ns-i-2.3",
+       "title": "Introduction to PRA"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "ns-i-3",
+     "title": "Regulation and licensing",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "ns-i-3.1",
+       "title": "National regulators"
+      },
+      {
+       "id": "ns-i-3.2",
+       "title": "Licensing stages"
+      },
+      {
+       "id": "ns-i-3.3",
+       "title": "Inspection and enforcement"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "Decay heat after shutdown",
+    "Event tree (simple)"
+   ],
+   "suggestedSimulations": [
+    "Decay heat curve"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Nuclear Safety and Regulation Intermediate topic test",
+    "numerical": true,
+    "levelExam": "Nuclear Safety and Regulation Intermediate level exam"
+   }
+  },
+  {
+   "id": "ns-a",
+   "level": "Advanced",
+   "difficulty": 3,
+   "objectives": [
+    "Interpret a simple safety analysis",
+    "Discuss lessons from historical events"
+   ],
+   "chapters": [
+    {
+     "id": "ns-a-1",
+     "title": "Safety analysis",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "ns-a-1.1",
+       "title": "Design basis accidents"
+      },
+      {
+       "id": "ns-a-1.2",
+       "title": "Defence-in-depth analysis"
+      },
+      {
+       "id": "ns-a-1.3",
+       "title": "Safety margins"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "ns-a-2",
+     "title": "Emergency preparedness",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "ns-a-2.1",
+       "title": "Emergency planning concepts"
+      },
+      {
+       "id": "ns-a-2.2",
+       "title": "The INES scale"
+      },
+      {
+       "id": "ns-a-2.3",
+       "title": "Lessons from past accidents"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "ns-a-3",
+     "title": "Safety culture and human factors",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "ns-a-3.1",
+       "title": "Organisational factors"
+      },
+      {
+       "id": "ns-a-3.2",
+       "title": "Operating experience feedback"
+      },
+      {
+       "id": "ns-a-3.3",
+       "title": "Standards and peer review"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "INES scale"
+   ],
+   "suggestedSimulations": [
+    "Event tree builder"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Nuclear Safety and Regulation Advanced topic test",
+    "numerical": true,
+    "levelExam": "Nuclear Safety and Regulation Advanced level exam"
+   }
+  }
+ ],
+ "finalExam": "Nuclear Safety and Regulation final course examination (all three levels)"
+}

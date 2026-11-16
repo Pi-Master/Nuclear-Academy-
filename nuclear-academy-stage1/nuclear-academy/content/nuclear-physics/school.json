@@ -1,0 +1,309 @@
+{
+ "schemaVersion": 1,
+ "id": "np",
+ "dir": "nuclear-physics",
+ "name": "Nuclear Physics",
+ "summary": "Atoms, nuclei, radioactivity, nuclear reactions and the physics of neutrons.",
+ "levels": [
+  {
+   "id": "np-f",
+   "level": "Foundation",
+   "difficulty": 1,
+   "objectives": [
+    "Describe the structure of an atom and its nucleus",
+    "Explain isotopes and half-life qualitatively"
+   ],
+   "chapters": [
+    {
+     "id": "np-f-1",
+     "title": "Atoms and the nucleus",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "np-f-1.1",
+       "title": "Protons, neutrons and electrons"
+      },
+      {
+       "id": "np-f-1.2",
+       "title": "Atomic number and mass number"
+      },
+      {
+       "id": "np-f-1.3",
+       "title": "Scale of atom and nucleus"
+      }
+     ],
+     "existing": {
+      "lessons": [
+       "b1",
+       "b2"
+      ],
+      "tools": [
+       "atom-explorer"
+      ],
+      "diagrams": [
+       "atom"
+      ]
+     }
+    },
+    {
+     "id": "np-f-2",
+     "title": "Isotopes and radioactivity",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "np-f-2.1",
+       "title": "Isotopes and notation"
+      },
+      {
+       "id": "np-f-2.2",
+       "title": "Alpha, beta and gamma decay"
+      },
+      {
+       "id": "np-f-2.3",
+       "title": "Half-life in plain terms"
+      }
+     ],
+     "existing": {
+      "lessons": [
+       "b3"
+      ]
+     }
+    },
+    {
+     "id": "np-f-3",
+     "title": "Energy from the nucleus",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "np-f-3.1",
+       "title": "Nuclear versus chemical energy"
+      },
+      {
+       "id": "np-f-3.2",
+       "title": "Fission and fusion in outline"
+      },
+      {
+       "id": "np-f-3.3",
+       "title": "Why mass matters"
+      }
+     ],
+     "existing": {
+      "lessons": [
+       "b1"
+      ]
+     }
+    }
+   ],
+   "suggestedDiagrams": [
+    "Structure of an atom",
+    "Alpha, beta and gamma decay"
+   ],
+   "suggestedSimulations": [
+    "Atom explorer",
+    "Half-life dice experiment"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Nuclear Physics Foundation topic test",
+    "numerical": false,
+    "levelExam": "Nuclear Physics Foundation level exam"
+   }
+  },
+  {
+   "id": "np-i",
+   "level": "Intermediate",
+   "difficulty": 2,
+   "objectives": [
+    "Calculate activity and remaining nuclei with the decay law",
+    "Compute mass defect and binding energy from atomic masses"
+   ],
+   "chapters": [
+    {
+     "id": "np-i-1",
+     "title": "Radioactive decay mathematics",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "np-i-1.1",
+       "title": "Decay law N = N0 e^(-lambda t)"
+      },
+      {
+       "id": "np-i-1.2",
+       "title": "Activity and the becquerel"
+      },
+      {
+       "id": "np-i-1.3",
+       "title": "Decay chains and equilibrium"
+      }
+     ],
+     "existing": {
+      "textbook": [
+       "ch5"
+      ]
+     }
+    },
+    {
+     "id": "np-i-2",
+     "title": "Binding energy and mass-energy equivalence",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "np-i-2.1",
+       "title": "Mass defect"
+      },
+      {
+       "id": "np-i-2.2",
+       "title": "E = mc2 and atomic mass units"
+      },
+      {
+       "id": "np-i-2.3",
+       "title": "Binding energy per nucleon curve"
+      }
+     ],
+     "existing": {
+      "lessons": [
+       "i2"
+      ],
+      "textbook": [
+       "ch10"
+      ]
+     }
+    },
+    {
+     "id": "np-i-3",
+     "title": "Fission, fusion and nuclear reactions",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "np-i-3.1",
+       "title": "Energy release in fission"
+      },
+      {
+       "id": "np-i-3.2",
+       "title": "Energy release in fusion"
+      },
+      {
+       "id": "np-i-3.3",
+       "title": "Q-values and conservation laws"
+      }
+     ],
+     "existing": {
+      "lessons": [
+       "i1"
+      ],
+      "textbook": [
+       "ch11"
+      ],
+      "diagrams": [
+       "fission"
+      ]
+     }
+    }
+   ],
+   "suggestedDiagrams": [
+    "Binding energy per nucleon curve",
+    "Nuclear fission of uranium-235",
+    "A simple decay chain"
+   ],
+   "suggestedSimulations": [
+    "Radioactive decay Monte Carlo",
+    "Fission probability demonstration"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Nuclear Physics Intermediate topic test",
+    "numerical": true,
+    "levelExam": "Nuclear Physics Intermediate level exam"
+   }
+  },
+  {
+   "id": "np-a",
+   "level": "Advanced",
+   "difficulty": 3,
+   "objectives": [
+    "Apply nuclear models and cross-section concepts to simple problems",
+    "Derive and use the one-group diffusion equation"
+   ],
+   "chapters": [
+    {
+     "id": "np-a-1",
+     "title": "Nuclear structure and forces",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "np-a-1.1",
+       "title": "The strong force"
+      },
+      {
+       "id": "np-a-1.2",
+       "title": "Liquid-drop and shell models"
+      },
+      {
+       "id": "np-a-1.3",
+       "title": "Semi-empirical mass formula and stability"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "np-a-2",
+     "title": "Neutron interactions and cross-sections",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "np-a-2.1",
+       "title": "Microscopic and macroscopic cross-sections"
+      },
+      {
+       "id": "np-a-2.2",
+       "title": "Reaction rates"
+      },
+      {
+       "id": "np-a-2.3",
+       "title": "Resonances and energy dependence"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "np-a-3",
+     "title": "Introductory neutron transport",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "np-a-3.1",
+       "title": "Neutron flux and current"
+      },
+      {
+       "id": "np-a-3.2",
+       "title": "Transport versus diffusion"
+      },
+      {
+       "id": "np-a-3.3",
+       "title": "Fick's law and the diffusion equation"
+      }
+     ],
+     "existing": {
+      "lessons": [
+       "u1"
+      ]
+     }
+    }
+   ],
+   "suggestedDiagrams": [
+    "Cross-section versus energy",
+    "Neutron balance in a volume"
+   ],
+   "suggestedSimulations": [
+    "Neutron random walk in a slab"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Nuclear Physics Advanced topic test",
+    "numerical": true,
+    "levelExam": "Nuclear Physics Advanced level exam"
+   }
+  }
+ ],
+ "finalExam": "Nuclear Physics final course examination (all three levels)"
+}

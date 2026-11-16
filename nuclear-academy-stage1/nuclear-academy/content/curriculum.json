@@ -1,0 +1,65 @@
+{
+ "schemaVersion": 1,
+ "schools": [
+  {
+   "id": "np",
+   "name": "Nuclear Physics",
+   "dir": "nuclear-physics",
+   "file": "content/nuclear-physics/school.json"
+  },
+  {
+   "id": "re",
+   "name": "Reactor Engineering",
+   "dir": "reactor-engineering",
+   "file": "content/reactor-engineering/school.json"
+  },
+  {
+   "id": "pg",
+   "name": "Nuclear Power Generation",
+   "dir": "power-generation",
+   "file": "content/power-generation/school.json"
+  },
+  {
+   "id": "rs",
+   "name": "Radiation Science",
+   "dir": "radiation-science",
+   "file": "content/radiation-science/school.json"
+  },
+  {
+   "id": "th",
+   "name": "Thermal Hydraulics",
+   "dir": "thermal-hydraulics",
+   "file": "content/thermal-hydraulics/school.json"
+  },
+  {
+   "id": "me",
+   "name": "Nuclear Materials Engineering",
+   "dir": "materials-engineering",
+   "file": "content/materials-engineering/school.json"
+  },
+  {
+   "id": "fc",
+   "name": "Nuclear Fuel Cycle and Waste Management",
+   "dir": "fuel-cycle",
+   "file": "content/fuel-cycle/school.json"
+  },
+  {
+   "id": "ns",
+   "name": "Nuclear Safety and Regulation",
+   "dir": "nuclear-safety",
+   "file": "content/nuclear-safety/school.json"
+  },
+  {
+   "id": "fe",
+   "name": "Fusion Engineering",
+   "dir": "fusion-engineering",
+   "file": "content/fusion-engineering/school.json"
+  },
+  {
+   "id": "ap",
+   "name": "Nuclear Applications and Research",
+   "dir": "nuclear-applications",
+   "file": "content/nuclear-applications/school.json"
+  }
+ ]
+}

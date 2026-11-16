@@ -1,0 +1,260 @@
+{
+ "schemaVersion": 1,
+ "id": "ap",
+ "dir": "nuclear-applications",
+ "name": "Nuclear Applications and Research",
+ "summary": "Nuclear medicine, industry, research reactors, isotopes, instrumentation and innovation.",
+ "levels": [
+  {
+   "id": "ap-f",
+   "level": "Foundation",
+   "difficulty": 1,
+   "objectives": [
+    "Give examples of nuclear applications beyond electricity",
+    "Explain why medical isotopes have short half-lives"
+   ],
+   "chapters": [
+    {
+     "id": "ap-f-1",
+     "title": "Nuclear in medicine",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "ap-f-1.1",
+       "title": "Imaging with isotopes"
+      },
+      {
+       "id": "ap-f-1.2",
+       "title": "Radiotherapy"
+      },
+      {
+       "id": "ap-f-1.3",
+       "title": "Patient safety"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "ap-f-2",
+     "title": "Nuclear in industry",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "ap-f-2.1",
+       "title": "Gauges and sterilisation"
+      },
+      {
+       "id": "ap-f-2.2",
+       "title": "Smoke detectors"
+      },
+      {
+       "id": "ap-f-2.3",
+       "title": "Dating and tracing"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "ap-f-3",
+     "title": "Research reactors and isotopes",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "ap-f-3.1",
+       "title": "What research reactors do"
+      },
+      {
+       "id": "ap-f-3.2",
+       "title": "Making isotopes"
+      },
+      {
+       "id": "ap-f-3.3",
+       "title": "Short half-lives"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "Medical imaging chain"
+   ],
+   "suggestedSimulations": [
+    "Isotope decay for imaging"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Nuclear Applications and Research Foundation topic test",
+    "numerical": false,
+    "levelExam": "Nuclear Applications and Research Foundation level exam"
+   }
+  },
+  {
+   "id": "ap-i",
+   "level": "Intermediate",
+   "difficulty": 2,
+   "objectives": [
+    "Explain gamma imaging and PET principles",
+    "Describe how isotopes are produced"
+   ],
+   "chapters": [
+    {
+     "id": "ap-i-1",
+     "title": "Nuclear medicine physics",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "ap-i-1.1",
+       "title": "Gamma camera, SPECT and PET"
+      },
+      {
+       "id": "ap-i-1.2",
+       "title": "Technetium-99m"
+      },
+      {
+       "id": "ap-i-1.3",
+       "title": "Patient dose"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "ap-i-2",
+     "title": "Radioisotope production",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "ap-i-2.1",
+       "title": "Reactor and accelerator production"
+      },
+      {
+       "id": "ap-i-2.2",
+       "title": "Choosing a half-life"
+      },
+      {
+       "id": "ap-i-2.3",
+       "title": "Supply chains"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "ap-i-3",
+     "title": "Nuclear instrumentation",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "ap-i-3.1",
+       "title": "Detectors in practice"
+      },
+      {
+       "id": "ap-i-3.2",
+       "title": "Signal processing"
+      },
+      {
+       "id": "ap-i-3.3",
+       "title": "Neutron flux monitoring"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "Gamma camera",
+    "PET detection"
+   ],
+   "suggestedSimulations": [
+    "Imaging dose and decay calculator"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Nuclear Applications and Research Intermediate topic test",
+    "numerical": true,
+    "levelExam": "Nuclear Applications and Research Intermediate level exam"
+   }
+  },
+  {
+   "id": "ap-a",
+   "level": "Advanced",
+   "difficulty": 3,
+   "objectives": [
+    "Evaluate a nuclear research paper critically",
+    "Compare emerging technologies with established ones"
+   ],
+   "chapters": [
+    {
+     "id": "ap-a-1",
+     "title": "Research reactors and neutron science",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "ap-a-1.1",
+       "title": "Neutron beams"
+      },
+      {
+       "id": "ap-a-1.2",
+       "title": "Activation analysis"
+      },
+      {
+       "id": "ap-a-1.3",
+       "title": "Design differences from power reactors"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "ap-a-2",
+     "title": "Advanced nuclear technologies",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "ap-a-2.1",
+       "title": "Small modular reactors"
+      },
+      {
+       "id": "ap-a-2.2",
+       "title": "Advanced fuels"
+      },
+      {
+       "id": "ap-a-2.3",
+       "title": "Space applications"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "ap-a-3",
+     "title": "Research and innovation",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "ap-a-3.1",
+       "title": "Reading research papers"
+      },
+      {
+       "id": "ap-a-3.2",
+       "title": "Open problems"
+      },
+      {
+       "id": "ap-a-3.3",
+       "title": "Established versus emerging research"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "Research reactor layout"
+   ],
+   "suggestedSimulations": [
+    "Activation analysis calculator"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Nuclear Applications and Research Advanced topic test",
+    "numerical": true,
+    "levelExam": "Nuclear Applications and Research Advanced level exam"
+   }
+  }
+ ],
+ "finalExam": "Nuclear Applications and Research final course examination (all three levels)"
+}

@@ -1,0 +1,262 @@
+{
+ "schemaVersion": 1,
+ "id": "rs",
+ "dir": "radiation-science",
+ "name": "Radiation Science",
+ "summary": "Radiation types, interactions with matter, detection, shielding, dosimetry and protection.",
+ "levels": [
+  {
+   "id": "rs-f",
+   "level": "Foundation",
+   "difficulty": 1,
+   "objectives": [
+    "Compare the main radiation types and their penetration",
+    "Explain time, distance and shielding"
+   ],
+   "chapters": [
+    {
+     "id": "rs-f-1",
+     "title": "Types of radiation",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "rs-f-1.1",
+       "title": "Alpha, beta, gamma and neutron radiation"
+      },
+      {
+       "id": "rs-f-1.2",
+       "title": "Ionising and non-ionising"
+      },
+      {
+       "id": "rs-f-1.3",
+       "title": "The electromagnetic spectrum"
+      }
+     ],
+     "existing": {
+      "diagrams": [
+       "shield"
+      ]
+     }
+    },
+    {
+     "id": "rs-f-2",
+     "title": "Radiation around us",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "rs-f-2.1",
+       "title": "Natural background"
+      },
+      {
+       "id": "rs-f-2.2",
+       "title": "Medical and industrial sources"
+      },
+      {
+       "id": "rs-f-2.3",
+       "title": "Dose units in plain language"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "rs-f-3",
+     "title": "Staying safe",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "rs-f-3.1",
+       "title": "Time, distance and shielding"
+      },
+      {
+       "id": "rs-f-3.2",
+       "title": "Basic protection ideas"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "Radiation types",
+    "Penetration of alpha, beta and gamma"
+   ],
+   "suggestedSimulations": [
+    "Penetration comparison"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Radiation Science Foundation topic test",
+    "numerical": false,
+    "levelExam": "Radiation Science Foundation level exam"
+   }
+  },
+  {
+   "id": "rs-i",
+   "level": "Intermediate",
+   "difficulty": 2,
+   "objectives": [
+    "Solve attenuation and half-value-layer problems",
+    "Explain how common detectors work"
+   ],
+   "chapters": [
+    {
+     "id": "rs-i-1",
+     "title": "Radiation interactions with matter",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "rs-i-1.1",
+       "title": "Charged-particle stopping"
+      },
+      {
+       "id": "rs-i-1.2",
+       "title": "Photon interactions"
+      },
+      {
+       "id": "rs-i-1.3",
+       "title": "Neutron interactions"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "rs-i-2",
+     "title": "Detection and measurement",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "rs-i-2.1",
+       "title": "Gas-filled, scintillation and semiconductor detectors"
+      },
+      {
+       "id": "rs-i-2.2",
+       "title": "Counting statistics"
+      },
+      {
+       "id": "rs-i-2.3",
+       "title": "Calibration"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "rs-i-3",
+     "title": "Shielding and dose",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "rs-i-3.1",
+       "title": "Attenuation I = I0 e^(-mu x)"
+      },
+      {
+       "id": "rs-i-3.2",
+       "title": "Half-value layers"
+      },
+      {
+       "id": "rs-i-3.3",
+       "title": "Absorbed, equivalent and effective dose"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "Radiation detection equipment",
+    "Radiation monitoring"
+   ],
+   "suggestedSimulations": [
+    "Detector count-rate and statistics",
+    "Gamma attenuation demonstration"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Radiation Science Intermediate topic test",
+    "numerical": true,
+    "levelExam": "Radiation Science Intermediate level exam"
+   }
+  },
+  {
+   "id": "rs-a",
+   "level": "Advanced",
+   "difficulty": 3,
+   "objectives": [
+    "Calculate equivalent and effective dose",
+    "Apply point-kernel shielding estimates"
+   ],
+   "chapters": [
+    {
+     "id": "rs-a-1",
+     "title": "Dosimetry",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "rs-a-1.1",
+       "title": "Kerma and absorbed dose"
+      },
+      {
+       "id": "rs-a-1.2",
+       "title": "Radiation and tissue weighting factors"
+      },
+      {
+       "id": "rs-a-1.3",
+       "title": "Internal dosimetry concepts"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "rs-a-2",
+     "title": "Shielding calculations",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "rs-a-2.1",
+       "title": "Buildup factors"
+      },
+      {
+       "id": "rs-a-2.2",
+       "title": "Point-kernel concept"
+      },
+      {
+       "id": "rs-a-2.3",
+       "title": "Neutron shielding"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "rs-a-3",
+     "title": "Radiation protection systems",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "rs-a-3.1",
+       "title": "ALARA and the ICRP system"
+      },
+      {
+       "id": "rs-a-3.2",
+       "title": "Monitoring programmes"
+      },
+      {
+       "id": "rs-a-3.3",
+       "title": "Radiological risk concepts"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "Shielding configurations"
+   ],
+   "suggestedSimulations": [
+    "Point-source shielding explorer"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Radiation Science Advanced topic test",
+    "numerical": true,
+    "levelExam": "Radiation Science Advanced level exam"
+   }
+  }
+ ],
+ "finalExam": "Radiation Science final course examination (all three levels)"
+}

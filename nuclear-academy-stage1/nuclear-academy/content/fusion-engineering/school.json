@@ -1,0 +1,261 @@
+{
+ "schemaVersion": 1,
+ "id": "fe",
+ "dir": "fusion-engineering",
+ "name": "Fusion Engineering",
+ "summary": "Plasma physics, magnetic confinement, tokamaks, stellarators and fusion power concepts.",
+ "levels": [
+  {
+   "id": "fe-f",
+   "level": "Foundation",
+   "difficulty": 1,
+   "objectives": [
+    "Explain how fusion releases energy",
+    "Describe what tokamaks and stellarators are"
+   ],
+   "chapters": [
+    {
+     "id": "fe-f-1",
+     "title": "What is fusion",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "fe-f-1.1",
+       "title": "Joining light nuclei"
+      },
+      {
+       "id": "fe-f-1.2",
+       "title": "The Sun and Earth"
+      },
+      {
+       "id": "fe-f-1.3",
+       "title": "Deuterium and tritium"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "fe-f-2",
+     "title": "Making fusion happen",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "fe-f-2.1",
+       "title": "Temperature and plasma"
+      },
+      {
+       "id": "fe-f-2.2",
+       "title": "The confinement idea"
+      },
+      {
+       "id": "fe-f-2.3",
+       "title": "Energy gain"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "fe-f-3",
+     "title": "Fusion research today",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "fe-f-3.1",
+       "title": "Tokamaks and stellarators"
+      },
+      {
+       "id": "fe-f-3.2",
+       "title": "ITER"
+      },
+      {
+       "id": "fe-f-3.3",
+       "title": "Why fusion is hard"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "Fusion reaction",
+    "Tokamak overview"
+   ],
+   "suggestedSimulations": [
+    "Simplified fusion probability model"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Fusion Engineering Foundation topic test",
+    "numerical": false,
+    "levelExam": "Fusion Engineering Foundation level exam"
+   }
+  },
+  {
+   "id": "fe-i",
+   "level": "Intermediate",
+   "difficulty": 2,
+   "objectives": [
+    "Explain magnetic confinement",
+    "Use the Lawson criterion and Q at a basic level"
+   ],
+   "chapters": [
+    {
+     "id": "fe-i-1",
+     "title": "Plasma physics basics",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "fe-i-1.1",
+       "title": "The plasma state"
+      },
+      {
+       "id": "fe-i-1.2",
+       "title": "Debye length (concept)"
+      },
+      {
+       "id": "fe-i-1.3",
+       "title": "Charged particles in magnetic fields"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "fe-i-2",
+     "title": "Magnetic confinement",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "fe-i-2.1",
+       "title": "Tokamak principle"
+      },
+      {
+       "id": "fe-i-2.2",
+       "title": "Stellarator principle"
+      },
+      {
+       "id": "fe-i-2.3",
+       "title": "Plasma heating methods"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "fe-i-3",
+     "title": "Fusion energy balance",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "fe-i-3.1",
+       "title": "Reaction rates"
+      },
+      {
+       "id": "fe-i-3.2",
+       "title": "Lawson criterion"
+      },
+      {
+       "id": "fe-i-3.3",
+       "title": "The Q factor"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "Tokamak magnetic fields",
+    "Stellarator layout"
+   ],
+   "suggestedSimulations": [
+    "Charged particle in a magnetic field"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Fusion Engineering Intermediate topic test",
+    "numerical": true,
+    "levelExam": "Fusion Engineering Intermediate level exam"
+   }
+  },
+  {
+   "id": "fe-a",
+   "level": "Advanced",
+   "difficulty": 3,
+   "objectives": [
+    "Analyse a simple fusion power balance",
+    "Describe blanket and materials challenges"
+   ],
+   "chapters": [
+    {
+     "id": "fe-a-1",
+     "title": "Plasma stability and transport",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "fe-a-1.1",
+       "title": "MHD instabilities"
+      },
+      {
+       "id": "fe-a-1.2",
+       "title": "Confinement time scaling"
+      },
+      {
+       "id": "fe-a-1.3",
+       "title": "Divertors and edge physics"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "fe-a-2",
+     "title": "Fusion materials and blankets",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "fe-a-2.1",
+       "title": "Neutron damage"
+      },
+      {
+       "id": "fe-a-2.2",
+       "title": "Tritium breeding blankets"
+      },
+      {
+       "id": "fe-a-2.3",
+       "title": "Plasma-facing materials"
+      }
+     ],
+     "existing": {}
+    },
+    {
+     "id": "fe-a-3",
+     "title": "Fusion power plant concepts",
+     "status": "planned",
+     "subchapters": [
+      {
+       "id": "fe-a-3.1",
+       "title": "Power balance"
+      },
+      {
+       "id": "fe-a-3.2",
+       "title": "Tritium fuel cycle"
+      },
+      {
+       "id": "fe-a-3.3",
+       "title": "Engineering challenges"
+      }
+     ],
+     "existing": {}
+    }
+   ],
+   "suggestedDiagrams": [
+    "Fusion reactor cross-section"
+   ],
+   "suggestedSimulations": [
+    "Fusion power balance explorer"
+   ],
+   "assessments": {
+    "perChapter": "knowledge check (4-6 questions)",
+    "topicTest": "Fusion Engineering Advanced topic test",
+    "numerical": true,
+    "levelExam": "Fusion Engineering Advanced level exam"
+   }
+  }
+ ],
+ "finalExam": "Fusion Engineering final course examination (all three levels)"
+}

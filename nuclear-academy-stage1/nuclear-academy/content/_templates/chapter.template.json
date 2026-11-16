@@ -1,0 +1,27 @@
+{
+ "schemaVersion": 1,
+ "id": "np-i-1",
+ "school": "np",
+ "level": "Intermediate",
+ "title": "Chapter title",
+ "readingMinutes": 0,
+ "objectives": ["What the learner can do after reading"],
+ "introduction": ["Plain-language paragraph(s) for all learners"],
+ "sections": [
+  {"id": "np-i-1.1", "title": "Section title", "blocks": [
+    {"type": "paragraph", "text": "Prose paragraph."},
+    {"type": "definition", "term": "Term", "text": "Definition."},
+    {"type": "equation", "id": "eq-decay-law", "plain": "N(t) = N0 * exp(-lambda * t)", "latex": "N(t)=N_0 e^{-\\lambda t}",
+     "explains": "What the equation represents",
+     "variables": [{"symbol": "N", "meaning": "undecayed nuclei", "unit": "dimensionless"}],
+     "workedExample": {"problem": "...", "steps": ["step 1", "step 2"], "result": "...", "meaning": "physical interpretation"}},
+    {"type": "diagram", "ref": "diagram-id"},
+    {"type": "note", "kind": "simplified-model", "text": "State what is a simplification"},
+    {"type": "keyFact", "text": "Important fact"}
+  ]}
+ ],
+ "summary": "Chapter summary",
+ "knowledgeChecks": ["quiz-id"],
+ "related": {"diagrams": [], "simulations": [], "glossary": [], "lessons": []},
+ "references": [{"source": "Author or organisation", "title": "Exact title", "verified": false, "note": "verified:true only after checking the source"}]
+}
